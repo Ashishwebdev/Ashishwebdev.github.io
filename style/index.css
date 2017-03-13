@@ -3,14 +3,21 @@
 	padding: 0;
 }
 body>header{
-	display: flex;
+
 	justify-content:center;
+
 	background-color: lightgrey;
 	text-align: center;
+	position: fixed;
 	width:100%;
+	top: 0px;
+	height: 60px;
 }
 ul{
 	list-style: none;
+}
+body>main{
+	padding-top:60px;
 }
 
 body>main>section>.personal_info>ul>li>h3{
