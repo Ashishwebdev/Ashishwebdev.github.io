@@ -1,101 +1,35 @@
-{
-	margin: 0;
-	padding: 0;
+#profile_pic{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
 }
-body>header{
-
-	justify-content:center;
-
-	background-color: lightgrey;
-	text-align: center;
-	position: fixed;
-	width:100%;
-	top: 0px;
-	height: 60px;
+#profile_pic>img{
+    border-radius: 30%;
 }
-ul{
-	list-style: none;
+.bg-primary{
+   background-color:#009688!important;
 }
-body>main{
-	padding-top:60px;
+#personal_info{
+    padding-top: 20px;
 }
-
-body>main>section>.personal_info>ul>li>h3{
-	font-size: 17px;
+#personal_skills{
+    display: flex;
+    justify-content: space-around;
 }
-.personal_info{
-	list-style: none;
+.customize_para{
+    margin-bottom: 10px;
 }
-body>main>section>.personal_info>ul>li{
-	padding: 3px 3px;
-	list-style: none;
-	font-style: italic;
+#custom_background_color{
+background-color: #009688!important;
 }
-
-body>main>section>.personal_info>ul>li{
-	padding: 0px;
-	list-style: none;
+#custom_padding{
+    padding-top: 15px;
 }
-
-body>main{
-	display: flex;
-	justfy-content: space-between;
-
+#custom_padding_other_skills{
+    padding-left: 21px;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
-body>main>.profile_pic{
-	display: flex;
-	padding-right: 5px;
-	width:33%;
-}
-body>main>.profile_pic>div>img{
-	width: 100%;
-	
-
-}
-body>main>section>.prefered_job>ul>li{
-	font-style: italic;
-	list-style: none;
-}
-body>main>section>.prefered_job>ul>{
-	display: flex;
-    flex-direction: column;
-
-}
-#headings{
-	font-size: 22px;
-	background-color: #ffffcc;
-	margin :0px ;
-	font-style: italic;
-	list-style: none;
-
-}
-#sub_heading{
-	font-style: oblique;
-	font-weight: bold;
-}
-
-.edu_train{
-	list-style: none;
-}
-
-
-#desc{
-	margin: 0px;
-}
-@media(max-width: 720px){
-body>main{
-	display: flex;
-	justfy-content: space-between;
-	flex-direction:column;
-
-
-}
-body>main>.profile_pic{
-	width:100%;
-
-}
-ul{
-	padding-left:  1px;
-}
-
+.list-inline{
+    font-size: xx-large;
 }
