@@ -39,11 +39,12 @@ background-color: #009688!important;
 
 div#carousel {
     perspective: 1200px;
-    background: #100000;
+    background-color: #222;
     padding-top: 10%;
     font-size:0;
     margin-bottom: 3rem;
     overflow: hidden;
+    margin-bottom: 0px;
 }
 figure#spinner {
     transform-style: preserve-3d;
@@ -78,5 +79,8 @@ div#carousel ~ span {
     border-bottom: none;
     line-height: 0; }
 div#carousel ~ span:hover { color: #888; cursor: pointer; }
+aside{
+    padding-top: 0px;
+}
 
 
