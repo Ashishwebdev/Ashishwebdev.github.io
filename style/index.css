@@ -42,7 +42,6 @@ div#carousel {
     background-color: #222;
     padding-top: 10%;
     font-size:0;
-    margin-bottom: 3rem;
     overflow: hidden;
     margin-bottom: 0px;
 }
@@ -53,7 +52,8 @@ figure#spinner {
     transition: 1s;
 }
 figure#spinner img {
-    width: 40%; max-width: 425px;
+    width: 100%;
+    max-width: 425px;
     position: absolute; left: 30%;
     transform-origin: 50% 50% -500px;
     outline:1px solid transparent;
@@ -82,5 +82,3 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 aside{
     padding-top: 0px;
 }
-
-
